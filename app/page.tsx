@@ -5,7 +5,9 @@ import LiveTicker from "@/components/LiveTicker";
 import StatsBar from "@/components/StatsBar";
 import HowItWorks from "@/components/HowItWorks";
 import Features from "@/components/Features";
+import BonusSimulator from "@/components/BonusSimulator";
 import ProofWall from "@/components/ProofWall";
+import MessiGiveaway from "@/components/MessiGiveaway";
 import Faq from "@/components/Faq";
 import FinalCta from "@/components/FinalCta";
 import Footer from "@/components/Footer";
@@ -21,7 +23,9 @@ export default function Home() {
       <StatsBar />
       <HowItWorks />
       <Features />
+      <BonusSimulator />
       <ProofWall />
+      <MessiGiveaway />
       <Faq />
       <FinalCta />
       <Footer />

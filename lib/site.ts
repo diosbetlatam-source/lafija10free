@@ -1,5 +1,16 @@
 export const TELEGRAM_URL = "https://t.me/lafijabot10";
 
+// Reglas del sorteo: ajustá fecha y mecánica real antes de publicar. No
+// anunciar el premio si todavía no está confirmado/disponible.
+export const giveaway = {
+  prize: "camiseta de Lionel Messi autografiada",
+  rules: [
+    "Sé miembro activo del grupo de Telegram",
+    "Interactuá con las señales del canal",
+    "El ganador se anuncia en vivo dentro del grupo",
+  ],
+};
+
 export const stats = [
   { value: "20+", label: "Señales por día" },
   { value: "12.4K+", label: "Miembros activos" },
