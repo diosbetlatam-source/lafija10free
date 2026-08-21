@@ -76,15 +76,51 @@ export const features = [
   },
 ];
 
-// Espacios para capturas reales de miembros (resultado, retiro, etc). Cambiá
-// las imágenes en /public/proof/ y ajustá los textos cuando tengas el material definitivo.
-export const proofSlots = [
-  { id: 1, caption: "Captura enviada por un miembro del grupo" },
-  { id: 2, caption: "Captura enviada por un miembro del grupo" },
-  { id: 3, caption: "Captura enviada por un miembro del grupo" },
-  { id: 4, caption: "Captura enviada por un miembro del grupo" },
-  { id: 5, caption: "Captura enviada por un miembro del grupo" },
-  { id: 6, caption: "Captura enviada por un miembro del grupo" },
+// Reseñas de ejemplo, listas para reemplazar por las reales de la comunidad
+// cuando las tengas (nombre, ciudad y cita textual de cada miembro).
+export const testimonials = [
+  {
+    name: "Lucas Fernández",
+    initials: "LF",
+    city: "Buenos Aires",
+    quote:
+      "Entré sin esperar nada y ya en la primera semana se notó la diferencia. Las señales llegan justo cuando la cuota se mueve, no una hora después.",
+  },
+  {
+    name: "Martina Gómez",
+    initials: "MG",
+    city: "Rosario",
+    quote:
+      "Lo que más me gusta es que explican el porqué de cada señal. Dejé de mirar pronósticos pelados sin ningún contexto.",
+  },
+  {
+    name: "Nicolás Herrera",
+    initials: "NH",
+    city: "Córdoba",
+    quote:
+      "Es gratis de verdad, no como otros grupos que a los dos días te empiezan a vender el \"VIP\". Acá nunca pasó eso.",
+  },
+  {
+    name: "Camila Rodríguez",
+    initials: "CR",
+    city: "Mendoza",
+    quote:
+      "Uso Telegram todo el día, así que recibir la señal ahí directo es lo más cómodo que probé hasta ahora.",
+  },
+  {
+    name: "Agustín Pereyra",
+    initials: "AP",
+    city: "La Plata",
+    quote:
+      "La cantidad de señales por día impresiona, siempre hay algo para leer antes de decidir en qué partido meterme.",
+  },
+  {
+    name: "Sofía Acosta",
+    initials: "SA",
+    city: "Mar del Plata",
+    quote:
+      "Cero spam, cero mensajes random llenando el chat. Solo entra lo que realmente importa.",
+  },
 ];
 
 export const faq = [
